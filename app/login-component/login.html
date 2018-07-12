@@ -1,0 +1,25 @@
+<div data-ng-app="login" data-ng-controller="loginCtrl">
+    <!-- <form id="msform">
+        <fieldset>
+            <h2 class="fs-title">PLEASE LOGIN</h2>
+            <h3 class="fs-subtitle">Though of no use</h3>                
+            <div><input type = "text" placeholder="Username" data-ng-model="username"></div>
+            <div><input type = "password" placeholder="Password" data-ng-model="password"></div>
+            <button >Login</button>
+            <input type="button" name="next" class="next action-button" value="Next" data-ng-click="login()" />
+        </fieldset>
+    </form> -->
+
+    <div id="login-div">
+        <form id="login-form">
+            <h2>PLEASE LOGIN</h2>
+            <br>
+            <!-- <h3>Though of no use here</h3>                 -->
+            <div class="holder"><input type = "text" data-ng-model="username" id="user"></div>
+            <div class="holder"><input type = "password" data-ng-model="password" id="pass"></div>
+            <input id="login-button" type="button" name="next" value="Next" data-ng-click="login()" />
+        </form>
+    </div>
+
+</div>
+

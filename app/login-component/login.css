@@ -51,7 +51,7 @@ body {
     padding: 5px 0 10px 0;
     border: 1px solid #ccc;
     border-radius: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 80%;
     box-sizing: border-box;
     font-family: montserrat;
@@ -73,8 +73,12 @@ body {
 #user{
     background:url(user.png) no-repeat left;
     padding-left: 15px;
+    text-indent: 20px;
+
 }
 #pass{
     background:url(password.png) no-repeat left;
     padding-left: 15px;
+    text-indent: 20px;
+
 }
